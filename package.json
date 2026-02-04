@@ -1,14 +1,20 @@
 {
 	"name": "fcc-learn-npm-package-json",
+	"version": "1.0.0",
+	"description": "A simple Node.js project for practicing how to configure and manage a package.json file with npm.",
+	"author": "Amrit Samra",
+	"keywords": ["freecodecamp", "nodejs", "npm", "package", "backend", "learning"],
+	"license": "MIT",
 	"dependencies": {
-		"express": "^4.14.0"
+	  "express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+	  "start": "node server.js"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+	  "type": "git",
+	  "url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
 	}
-}
+  }
+  
